@@ -1,4 +1,5 @@
 White list the pop up so it stops asking.
+
 sudo mkdir -p /etc/opt/chrome/policies/managed/ && echo '{ "URLAllowlist": ["slack://*"] }' |sudo tee /etc/opt/chrome/policies/managed/allowlist.json
 
 
