@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Web Slack",
+    "description": "Stop Slack from asking to open desktop app",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "js": ["jquery.js", "foreground.js"],
+        "matches": ["https://*.slack.com/team*"]
+    }]
+}
